@@ -1,0 +1,11 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css?v=20261028092702"><link rel="stylesheet" href="../templates.css?v=20261028092702"><link rel="stylesheet" href="../diagram.css?v=20261028092702"><script src="../base.js?v=20261028092702"></script></head><body><div class="slide"><div class="grid"></div><div class="tagpos"><span class="tag">Act II · The loop</span></div><h2 class="head" data-edit="headline" style="font-size:66px">A small change, three problems</h2><div class="codebox"><pre style="font-size:32px"><span class="k">function</span> <span class="f">handle</span>(body, settings) {
+  <span class="k">const</span> req = JSON.<span class="f">parse</span>(body);
+  <span class="k">const</span> n = <span class="f">parseInt</span>(req.limit);
+  <span class="k">const</span> items = req.tags.<span class="f">map</span>((t) =&gt; t.<span class="f">trim</span>());
+  settings.lastLimit = n;
+  <span class="k">return</span> { ok: <span class="k">true</span>, count: items.length, limit: n };
+}
+
+<span class="k">function</span> <span class="f">showTitle</span>(el, title) {
+  el.innerHTML = title;
+}</pre></div><div class="codecap" data-edit="caption">Twelve lines. Read it through the lenses and ask, for each line, what input breaks it.</div><div class="src" data-edit="source">A small example change made for this talk.</div></div></body></html>

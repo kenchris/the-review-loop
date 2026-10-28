@@ -1,0 +1,34 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary profile / runtime dumps
+build/d1-profile/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Raw recordings and screen captures: large, and they can show parts of the desktop
+videos/raw/
+web/videos/raw/
+
+# Scratch images, logs and filter scripts from building the demo videos
+build/ck*.png
+build/clk*.png
+build/d1-*.png
+build/tz*.png
+build/vt-*.png
+build/*-filter.txt
+build/*.log
+build/*.out
+
+# Intermediate videos with touch indicators, rebuilt by build/clicks.py
+videos/*-clicks.mp4
+
+# Frames of the terminal replay, contact sheets, scratch pictures
+build/term/frames/
+build/sheet*.png
+build/check.png
+build/vs-last.png

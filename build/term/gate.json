@@ -1,0 +1,20 @@
+{
+ "title": "example change",
+ "steps": [
+  {
+   "cmd": "review-loop gate main b23e6f49",
+   "out": "FAIL: 1 commit(s) are in no review report with Open: 0, for example:\n  b23e6f4 Add request handler with limit and tags\nSTOP: run the multipass review and fix or explain every finding",
+   "code": 1
+  },
+  {
+   "cmd": "head -7 reviews/feature-limits-b23e6f49.md",
+   "out": "# Review of feature/limits\nReviewed-range: 01d2a6600617836a142027c1cbd15fb68af1cd6b..b23e6f497acb455b79f789b463903c80808301b8\nMode: single\nDepth: single (small: 12 code lines (limit 60))\nDate: 2026-10-28\nCycle: 1\nOpen: 0",
+   "code": 0
+  },
+  {
+   "cmd": "review-loop gate main b23e6f49",
+   "out": "review gate: all 1 commit(s) covered by reports",
+   "code": 0
+  }
+ ]
+}

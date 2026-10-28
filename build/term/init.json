@@ -1,0 +1,15 @@
+{
+ "title": "neon-smash",
+ "steps": [
+  {
+   "cmd": "review-loop init",
+   "out": "created  ./REVIEW.md\ncreated  ./REVIEW.sweeps\ncreated  ./REVIEW.gate\nready    ./reviews/ (review reports and score.tsv)\ncreated  ./.review-loop.env\n\nNext: edit REVIEW.md (what a failure is here, the guard paths, what to ignore), then ask for a review:\n  /pre-pr-review <branch>      (in Claude Code; install the skills with install.sh)\n  review-loop sweeps <base> <tip>\nDecide whether reviews/ and .review-loop.env are committed or ignored; REVIEW.md and REVIEW.sweeps normally are.",
+   "code": 0
+  },
+  {
+   "cmd": "review-loop doctor",
+   "out": "review-loop 0.6.0 at ~/review-loop\nok       bash 5.2.37\nok       git\nok       awk and sed\nok       skill pre-pr-review installed\nok       skill review-eval installed\nrepository ./neon-smash\nok       REVIEW.md (./REVIEW.md)\nok       REVIEW.sweeps (optional)\nok       reports directory\n8 ok, 0 missing",
+   "code": 0
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css?v=20261028092702"><link rel="stylesheet" href="../templates.css?v=20261028092702"><link rel="stylesheet" href="../diagram.css?v=20261028092702"><script src="../base.js?v=20261028092702"></script><style>
+ .rd{position:absolute;top:300px;width:440px;height:330px;border-radius:22px;background:#0F1730;box-shadow:0 0 0 3px var(--cyan);padding:26px 30px;font-size:28px;line-height:1.3}
+ .rd b{display:block;font-size:34px;font-weight:600;margin-bottom:10px;color:var(--cyan)}
+ .rd .m{color:#C9D3E8;font-size:26px}
+ .ln{position:absolute;top:630px;width:6px;height:60px;background:var(--cyan)}
+ .vote{position:absolute;left:112px;right:112px;top:690px;height:170px;border-radius:22px;background:#0A2230;box-shadow:0 0 0 3px var(--green);padding:26px 40px;font-size:30px;line-height:1.35}
+ .vote b{font-size:36px;font-weight:600;color:var(--green);margin-right:18px}
+ .rep{position:absolute;left:112px;right:112px;top:900px;font-size:28px;color:var(--muted)}
+</style></head><body><div class="slide"><div class="grid"></div><div class="tagpos"><span class="tag">Act II · The loop</span></div><h2 class="head" data-edit="headline" style="font-size:76px">Three readers, each with <em>one job,</em> then a vote</h2>
+<div class="rd" style="left:112px"><b>Reader 1</b><span class="m">Input, limits, cost, tests</span></div>
+<div class="rd" style="left:620px"><b>Reader 2</b><span class="m">Error paths, state, concurrency, platform, CI</span></div>
+<div class="rd" style="left:1128px"><b>Reader 3</b><span class="m">Agreement, claims, dead code, routing, UI</span></div>
+<div class="ln" style="left:329px"></div><div class="ln" style="left:837px"></div><div class="ln" style="left:1345px"></div>
+<div class="vote"><b>Merge and vote</b>Found by two readers: it stands. Found by one: confirm it in the code, try to disprove it.</div>
+<div class="rep">A fourth reader checks the change against an external specification, when REVIEW.md lists one. Readers are not told what the others look for.</div>
+</div></body></html>
