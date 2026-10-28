@@ -1,18 +1,18 @@
 # Act V. Learning
 
-### 45
+### 46
 type: section
 num: V
 headline: Learning
 sub: Every outside comment is a check you did not have.
 
-### 46
+### 47
 type: diagram
 tag: Act V · Learning
 headline: From a review thread to *the next review*
 name: d42-ledger
 
-### 47
+### 48
 type: code
 tag: Act V · Learning
 headline: Level 4: four commands
@@ -25,7 +25,7 @@ code: |
 caption: Download the open threads. See what is undecided. Decide each one. Then ask the agent what would have caught them.
 source: docs/learning-from-reviews.md. Needs node 18 and a token that can read the pull requests.
 
-### 48
+### 49
 type: table
 tag: Act V · Learning
 headline: A verdict is *your decision* about one thread
@@ -37,13 +37,13 @@ items:
 - deferred | Real, but not now.
 source: docs/learning-from-reviews.md. Also: missed, and new for undecided.
 
-### 49
+### 50
 type: diagram
 tag: Act V · Learning
 headline: The cheapest change that *would have caught it*
 name: d45-ladder
 
-### 50
+### 51
 type: fourup
 tag: Act V · Learning
 headline: What /retro said about a real round
@@ -55,20 +55,20 @@ items:
 source: The Copilot round from slide 7: nine comments, eight right. The README does not break down the other three.
 check: the README gives five of the eight causes. Do not claim a split of the rest.
 
-### 51
+### 52
 type: statement
 tag: Act V · Learning
 headline: Measure the reviewer too. *Recall and noise.* Both.
 sub: Recall: of the real problems, how many it reported. Noise: of what it reported, how much was wrong. Raising recall is easy. Noise is what it costs the author.
 source: skills/review-eval/SKILL.md.
 
-### 52
+### 53
 type: statement
 tag: Act V · Learning
 headline: A rejected comment keeps *your reason.* It is not fixed twice.
 sub: And a change to the lenses is kept only if the eval says it helped.
 
-### 53
+### 54
 type: statement
 tag: Act V · Learning
 headline: It pays off after a few rounds. *With one or two comments there is nothing to learn from yet.*

@@ -95,6 +95,14 @@ caption: Terminal, Run Task, review-loop: sweeps. The hits are added as warnings
 machine: VS Code on Windows 11, a clean profile, Neon Smash. Recorded live: the task output and the warnings are real.
 
 ### 42
+type: video
+tag: Recorded run
+video: vscode-copilot.mp4
+headline: /pre-pr-review in *Copilot chat*
+caption: Agent mode in VS Code, on the last commit of Neon Smash. The middle is sped up 12 times. The report: no Important or Nit findings, and it says it could not run the tests.
+machine: VS Code on Windows 11. Recorded live, sped up in the middle. /pre-pr-review HEAD~1..HEAD, a ten-line change.
+
+### 43
 type: code
 tag: Act IV · Level 3
 headline: Make "reviewed" a rule
@@ -108,14 +116,14 @@ code: |
 caption: Commit the report. Check before a hand-over or merge.
 source: Run on the example change made for this talk. The report is written by the agent, here by hand.
 
-### 43
+### 44
 type: statement
 tag: Act IV · Level 3
 headline: In CI the scripts run. *The skills do not.*
 sub: Sweep hits appear as warnings on the changed lines of a pull request. The gate can be a required check.
 source: docs/ci.md. The sample workflow is a sketch, not yet run on GitHub.
 
-### 44
+### 45
 type: statement
 tag: Act IV · In practice
 headline: Plain SKILL.md files. They work where an agent *loads skills.*

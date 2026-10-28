@@ -1,5 +1,7 @@
-<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><link rel="stylesheet" href="../templates.css"><link rel="stylesheet" href="../diagram.css"><script src="../base.js"></script></head><body><div class="slide"><div class="grid"></div><div class="tagpos"><span class="tag">Hands-on · Steps 4 and 5</span></div><h2 class="head" data-edit="headline" style="font-size:66px">Setup, then the rule</h2><div class="codebox"><pre style="font-size:36px">review-loop init
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><link rel="stylesheet" href="../templates.css"><link rel="stylesheet" href="../diagram.css"><script src="../base.js"></script></head><body><div class="slide"><div class="grid"></div><div class="tagpos"><span class="tag">Hands-on · Steps 1 to 3</span></div><h2 class="head" data-edit="headline" style="font-size:66px">Install, ask, compare</h2><div class="codebox"><pre style="font-size:36px">./install.sh --link
 review-loop doctor
 
-/pre-pr-review multipass my-branch
-review-loop gate main HEAD</pre></div><div class="codecap" data-edit="caption">Edit REVIEW.md first: three lines on what failure means in your project.</div></div></body></html>
+/pre-pr-review
+
+review-loop depth main HEAD
+review-loop sweeps main HEAD</pre></div><div class="codecap" data-edit="caption">Did the review find something the sweeps did not? Did the sweeps ask something the review answered?</div></div></body></html>
