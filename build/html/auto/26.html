@@ -1,1 +1,23 @@
-<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><link rel="stylesheet" href="../templates.css"><link rel="stylesheet" href="../diagram.css"><script src="../base.js"></script></head><body><div class="slide"><div class="grid"></div><div class="tagpos"><span class="tag">Act III · The loop</span></div><h2 class="head" data-edit="headline" style="font-size:76px">Nineteen <em>lenses.</em> One question each.</h2><div class="cards"><div class="card"><div class="n"></div><div class="t" data-edit="t0">Untrusted input</div><div class="d" data-edit="d0">Missing, null, the wrong type, huge, negative, NaN?</div></div><div class="card"><div class="n"></div><div class="t" data-edit="t1">Error paths</div><div class="d" data-edit="d1">Can it report success after the write failed?</div></div><div class="card"><div class="n"></div><div class="t" data-edit="t2">State</div><div class="d" data-edit="d2">Every writer of a flag, and every reset of it.</div></div><div class="card"><div class="n"></div><div class="t" data-edit="t3">Claims</div><div class="d" data-edit="d3">A comment says "never". Is that true for every caller?</div></div></div><div class="src" data-edit="source">skills/pre-pr-review/SKILL.md, section 3. Others: limits, cost, routing, platform, tests, concurrency, UI, dead code, other doors to the same resource.</div></div></body></html>
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><link rel="stylesheet" href="../templates.css"><link rel="stylesheet" href="../diagram.css"><script src="../base.js"></script><style>
+ .lp{position:absolute;top:350px;width:300px;height:230px;border-radius:22px;background:#0F1730;box-shadow:0 0 0 3px #2D3B66;padding:26px 28px;font-size:28px;line-height:1.25}
+ .lp b{display:block;font-size:34px;font-weight:600;margin-bottom:10px}
+ .lp .m{color:var(--muted);font-size:25px}
+ .lp .n{position:absolute;right:22px;top:14px;font-size:24px;color:var(--muted);font-weight:600}
+ .ar{position:absolute;top:455px;height:6px;border-radius:3px;background:var(--cyan)}
+ .ar::after{content:"";position:absolute;right:-4px;top:-11px;border-left:22px solid var(--cyan);border-top:14px solid transparent;border-bottom:14px solid transparent}
+ .back{position:absolute;left:260px;width:1400px;top:640px;height:150px;border-radius:0 0 26px 26px;border:6px solid var(--violet);border-top:none}
+ .back::before{content:"";position:absolute;left:-6px;top:-30px;border-bottom:34px solid var(--violet);border-left:14px solid transparent;border-right:14px solid transparent;transform:translateX(-11px)}
+ .backlab{position:absolute;left:0;right:0;top:812px;text-align:center;font-size:32px;color:#B7ACFF;font-weight:600}
+</style></head><body><div class="slide"><div class="grid"></div><div class="tagpos"><span class="tag">Act III · The loop</span></div><h2 class="head" data-edit="headline" style="font-size:88px">Five parts, one <em>loop</em></h2>
+<div class="lp cy" style="left:112px;box-shadow:0 0 0 3px var(--cyan)"><span class="n">1</span><b>Self-review</b><span class="m">lenses, sweeps, verified findings</span></div>
+<div class="ar" style="left:420px;width:50px"></div>
+<div class="lp" style="left:480px"><span class="n">2</span><b>Fix the class</b><span class="m">not the line. Test it.</span></div>
+<div class="ar" style="left:788px;width:50px"></div>
+<div class="lp" style="left:848px"><span class="n">3</span><b>Outside review</b><span class="m">people, bots, CI</span></div>
+<div class="ar" style="left:1156px;width:50px"></div>
+<div class="lp" style="left:1216px"><span class="n">4</span><b>Decide each</b><span class="m">fixed, wrong, not now</span></div>
+<div class="ar" style="left:1524px;width:50px"></div>
+<div class="lp" style="left:1584px;width:230px;box-shadow:0 0 0 3px var(--violet);background:#1A1640"><span class="n">5</span><b>A check</b><span class="m">that runs</span></div>
+<div class="back"></div>
+<div class="backlab">The next self-review starts with that check</div>
+</div></body></html>

@@ -1,18 +1,18 @@
 # Act III. Checks that run
 
-### 36
+### 38
 type: section
 num: IV
 headline: Checks that run
 sub: Attention is expensive. A search is free.
 
-### 37
+### 39
 type: statement
 tag: Act IV · Checks that run
 headline: If a search can find the pattern, *do not ask a reader to remember it.*
 sub: A line in a prompt costs attention on every review. A sweep costs a second and no model.
 
-### 38
+### 40
 type: code
 tag: Act IV · Checks that run
 headline: Sweeps: *the added lines,* run through search rules
@@ -27,14 +27,14 @@ code: |
 caption: No model, no cost. Each hit is a question.
 source: Run on Neon Smash (github.com/kenchris/soma-breakout), last 20 commits, output shortened.
 
-### 39
+### 41
 type: statement
 tag: Act IV · Checks that run
 headline: A hit is *a question,* not a finding.
 sub: Both of these are fine. The parse sits in a try and clamps the value. The listeners are added once, in a page that lives as long as the game. Answering takes a second.
 source: js/assist.js and js/secretCode.js in Neon Smash.
 
-### 40
+### 42
 type: video
 tag: Recorded run
 video: term-depth-sweeps.mp4
@@ -42,7 +42,7 @@ headline: Depth and sweeps on *a real game*
 caption: Last commit: one reader. Last seven: three. Then the added lines run through the sweeps: two questions, no model.
 machine: Windows 11, Git Bash. The output is real; the typing is replayed. Neon Smash, github.com/kenchris/soma-breakout
 
-### 41
+### 43
 type: code
 tag: Act IV · Checks that run
 headline: Your own sweep is *one line*
@@ -52,7 +52,7 @@ code: |
 caption: name ## which files ## regex ## why. It goes in REVIEW.sweeps at the root of the repository.
 source: The format of REVIEW.sweeps.
 
-### 42
+### 44
 type: code
 tag: Act IV · Checks that run
 headline: The gate: *"reviewed"* becomes a rule
@@ -69,13 +69,13 @@ code: |
 caption: A report in reviews/ with Open: 0 must cover every commit.
 source: Run on the example change made for this talk.
 
-### 43
+### 45
 type: statement
 tag: Act IV · Checks that run
 headline: The gate checks that a review *was written.* Not that it was good.
 sub: It is a hand-over rule. Quality comes from the lenses, the readers, the verification and the eval.
 
-### 44
+### 46
 type: video
 tag: Recorded run
 video: term-gate.mp4

@@ -1,0 +1,23 @@
+<style>
+ .bx{position:absolute;top:300px;width:700px;height:560px;border-radius:24px;background:#0F1730;padding:30px 36px;font-size:30px;line-height:1.4}
+ .bx h3{font-size:36px;font-weight:600;margin-bottom:6px}
+ .bx .m{color:var(--muted);font-size:26px;margin-bottom:18px;display:block}
+ .bx ul{list-style:none}
+ .bx li{font:29px/1.55 Consolas,'Cascadia Mono',monospace;color:#C9D3E8}
+ .bx li i{font-style:normal;color:var(--muted);font-family:'Segoe UI',sans-serif;font-size:24px;margin-left:14px}
+ .a{left:112px;box-shadow:0 0 0 3px #2D3B66}
+ .b{left:1108px;box-shadow:0 0 0 3px var(--violet);background:#1A1640}
+ .b h3{color:#B7ACFF}
+ .no{color:var(--amber)!important}
+ .ar{position:absolute;left:830px;top:540px;width:260px;height:6px;border-radius:3px;background:var(--cyan)}
+ .ar::after{content:"";position:absolute;right:-4px;top:-11px;border-left:22px solid var(--cyan);border-top:14px solid transparent;border-bottom:14px solid transparent}
+ .al{position:absolute;left:812px;top:420px;width:300px;text-align:center;font-size:26px;color:var(--cyan);line-height:1.3}
+ .al2{position:absolute;left:812px;top:575px;width:300px;text-align:center;font:24px Consolas,monospace;color:#7BE8FF}
+</style>
+<div class="bx a"><h3>The project</h3><span class="m">neon-smash, as it is</span>
+ <ul><li>js/</li><li>tests/</li><li>sw.js</li><li>CLAUDE.md</li>
+ <li class="no">no REVIEW.md</li><li class="no">no reviews/</li><li class="no">nothing to merge</li></ul></div>
+<div class="al">reads its settings from</div><div class="ar"></div><div class="al2">REVIEW_LOOP_CONFIG</div>
+<div class="bx b"><h3>review-loop-private</h3><span class="m">a separate repository, yours</span>
+ <ul><li>neon-smash/<i>one folder per project</i></li>
+ <li>&nbsp;&nbsp;config.env</li><li>&nbsp;&nbsp;REVIEW.md</li><li>&nbsp;&nbsp;REVIEW.sweeps</li><li>&nbsp;&nbsp;reviews/</li><li>&nbsp;&nbsp;evals/</li></ul></div>

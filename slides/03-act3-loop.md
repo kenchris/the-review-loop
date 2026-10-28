@@ -1,24 +1,24 @@
 # Act II. The loop
 
-### 23
+### 25
 type: section
 num: III
 headline: The loop
 sub: What one review is made of, and what it costs.
 
-### 24
+### 26
 type: diagram
 tag: Act III · The loop
 headline: Five parts, one *loop*
 name: d13-loop
 
-### 25
+### 27
 type: statement
 tag: Act III · The loop
 headline: A good reviewer reads *whole functions,* not diff lines.
 sub: The callers and siblings needed to answer a question. The report says what was read in full and what was only skimmed.
 
-### 26
+### 28
 type: fourup
 tag: Act III · The loop
 headline: Nineteen *lenses.* One question each.
@@ -29,7 +29,7 @@ items:
 - Claims | A comment says "never". Is that true for every caller?
 source: skills/pre-pr-review/SKILL.md, section 3. Others: limits, cost, routing, platform, tests, concurrency, UI, dead code, other doors to the same resource.
 
-### 27
+### 29
 type: code
 tag: Act III · The loop
 headline: A small change, three problems
@@ -49,7 +49,7 @@ code: |
 caption: Twelve lines. Read it through the lenses and ask, for each line, what input breaks it.
 source: A small example change made for this talk.
 
-### 28
+### 30
 type: code
 tag: Act III · The loop
 headline: Verify: *write the failure,* then run it
@@ -62,13 +62,13 @@ code: |
 caption: Every finding names the input that breaks it. What cannot be made concrete is dropped, or listed as "could not confirm".
 source: Output of the probe on the example change, Node 22.
 
-### 29
+### 31
 type: statement
 tag: Act III · The loop
 headline: Outside reviewers are cheap and sometimes wrong. *Yours should not be.*
 sub: A finding without a concrete failure does not go in the report.
 
-### 30
+### 32
 type: bignumber
 tag: Act III · The loop
 number: 37
@@ -78,13 +78,13 @@ side: **Our first baseline, code only, the cheapest model for every reader.** A 
 source: review-loop's own first baseline, in skills/pre-pr-review/references/multipass.md.
 check: small sample. Say the number of cases, or leave it as "our first measurement".
 
-### 31
+### 33
 type: diagram
 tag: Act III · The loop
 headline: Three readers, each with *one job,* then a vote
 name: d20-multipass
 
-### 32
+### 34
 type: compare
 tag: Act III · The loop
 headline: Pay for three readers only when it matters
@@ -102,7 +102,7 @@ right:
 right_color: cyan
 source: review-loop depth, skills/pre-pr-review/scripts/review-depth.sh. Default limit: 60 changed code lines.
 
-### 33
+### 35
 type: code
 tag: Act III · The loop
 headline: It asks *before* you spend
@@ -121,13 +121,13 @@ code: |
 caption: The last commit, the last seven and the last twenty of a real game.
 source: Run on Neon Smash (github.com/kenchris/soma-breakout), October 2026.
 
-### 34
+### 36
 type: statement
 tag: Act III · The loop
 headline: Three cycles at most. Then ask whether *the approach is wrong.*
 sub: After the first pass, read only the new diff. Fix the class of a bug, not the line.
 
-### 35
+### 37
 type: statement
 tag: Act III · The loop
 headline: What failure means *here* goes in one short file.
