@@ -5,7 +5,7 @@
   python make.py pptx            only (re)build the PowerPoint from the existing images
   python make.py pdf             only (re)build the PDF
   python make.py web             only (re)build the web version in web/
-  python make.py site            copy web/ into the public site repository (../web-after-the-ai-revolution-site/docs)
+  python make.py site            copy web/ into the public site repository (../the-review-loop-site/docs)
   python make.py render 5 7 13   rebuild and re-render only slides 5, 7 and 13, then pptx and pdf
   python make.py preview 5 7     rebuild only these slides and show full previews in build/full
 
