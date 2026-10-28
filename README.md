@@ -1,6 +1,6 @@
 # The review loop
 
-A talk about review-loop (github.com/kenchris/review-loop): why it exists and how to use it. The talk is slides 1 to 88. Part II (why it matters, with the evidence from the Claude Code team's post) and part VII (for managers) can be shortened or skipped for a developer audience. A hands-on part follows (slides 89 to 93).
+A talk about review-loop (github.com/kenchris/review-loop): why it exists and how to use it. The talk is slides 1 to 92. Part II (why it matters, with the evidence from the Claude Code team's post) and part VII (for managers) can be shortened or skipped for a developer audience. A hands-on part follows (slides 93 to 97).
 
 Built with the same pipeline as the web-after-the-ai-revolution talk. Text is in `slides/*.md`, drawings in `build/diagrams/*.html`.
 
@@ -10,7 +10,7 @@ Built with the same pipeline as the web-after-the-ai-revolution talk. Text is in
 
 Needs Python 3, Google Chrome, `pip install python-pptx pypdf pillow`.
 
-Slides with a `check:` line still have a fact to confirm (slides 9, 12, 32, 70).
+Slides with a `check:` line still have a fact to confirm (slides 9, 12, 32, 74).
 
 ## Where the examples come from
 
