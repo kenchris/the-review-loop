@@ -253,7 +253,7 @@ def t_timeline(s):
 
 def t_video(s):
     return (HEAD % '' + header(s, 66) + '<div class="vframe" data-video="%s"><div class="vtag">Recorded run</div><div class="vplay"></div></div>' % html.escape(s.get('video', ''))
-            + '<div class="vcap" data-edit="caption">%s</div>' % inline(s.get('caption', ''))
+            + '<div class="vcap" data-edit="caption" style="font-size:%dpx">%s</div>' % (36 if len(s.get('caption', '')) <= 130 else 31 if len(s.get('caption', '')) <= 180 else 28, inline(s.get('caption', '')))
             + '<div class="vmach" data-edit="machine">%s</div>' % inline(s.get('machine', '')) + TAIL)
 
 

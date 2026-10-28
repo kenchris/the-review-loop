@@ -81,7 +81,7 @@ code{font-family:Consolas,'Cascadia Mono',monospace;font-size:.9em;color:#A8F0C9
 .vplay::after{content:"";position:absolute;left:62px;top:40px;border-left:62px solid var(--cyan);border-top:45px solid transparent;border-bottom:45px solid transparent}
 .vtag{position:absolute;left:36px;top:30px;padding:10px 22px;border-radius:999px;background:rgba(255,184,77,.14);border:2px solid var(--amber);color:var(--amber);font-size:24px;letter-spacing:3px;text-transform:uppercase;font-weight:600}
 .vcap{position:absolute;left:1450px;top:270px;width:360px;font-size:36px;line-height:1.35;color:#DCE4F5}
-.vmach{position:absolute;left:1450px;top:660px;width:360px;font-size:26px;line-height:1.4;color:var(--muted);border-top:2px solid #24304F;padding-top:22px}
+.vmach{position:absolute;left:1450px;bottom:110px;width:360px;font-size:26px;line-height:1.4;color:var(--muted);border-top:2px solid #24304F;padding-top:22px}
 
 /* screenshot */
 .shotframe{position:absolute;left:112px;top:278px;border-radius:22px;background:#0A1226;box-shadow:0 0 0 2px #2D3B66,0 30px 80px rgba(0,0,0,.5);padding:12px}

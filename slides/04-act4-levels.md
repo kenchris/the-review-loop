@@ -91,7 +91,7 @@ type: video
 tag: Recorded run
 video: vscode-tasks.mp4
 headline: The same checks *inside VS Code*
-caption: Terminal, Run Task, review-loop: sweeps. The hits are added as warnings on the lines, in the Problems panel and in the editor.
+caption: Terminal, Run Task, review-loop: sweeps. The wait for the terminal is cut. The hits are added as warnings on the lines, in the Problems panel and in the editor.
 machine: VS Code on Windows 11, a clean profile, Neon Smash. Recorded live: the task output and the warnings are real.
 
 ### 42
@@ -99,8 +99,8 @@ type: video
 tag: Recorded run
 video: vscode-copilot.mp4
 headline: /pre-pr-review in *Copilot chat*
-caption: Agent mode in VS Code, on the last commit of Neon Smash. The middle is sped up 12 times. The report: no Important or Nit findings, and it says it could not run the tests.
-machine: VS Code on Windows 11. Recorded live, sped up in the middle. /pre-pr-review HEAD~1..HEAD, a ten-line change.
+caption: Agent mode in VS Code, on the last commit of Neon Smash. The report: no Important or Nit findings, and it says it could not run the tests.
+machine: VS Code on Windows 11, recorded live. Typing 2 times and the agent's work 6 times faster, still stretches cut. /pre-pr-review HEAD~1..HEAD, a ten-line change.
 
 ### 43
 type: code
