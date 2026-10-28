@@ -1,26 +1,26 @@
 # Act II. The loop
 
-### 12
+### 23
 type: section
-num: II
+num: III
 headline: The loop
 sub: What one review is made of, and what it costs.
 
-### 13
+### 24
 type: diagram
-tag: Act II · The loop
+tag: Act III · The loop
 headline: Five parts, one *loop*
 name: d13-loop
 
-### 14
+### 25
 type: statement
-tag: Act II · The loop
+tag: Act III · The loop
 headline: A good reviewer reads *whole functions,* not diff lines.
 sub: The callers and siblings needed to answer a question. The report says what was read in full and what was only skimmed.
 
-### 15
+### 26
 type: fourup
-tag: Act II · The loop
+tag: Act III · The loop
 headline: Nineteen *lenses.* One question each.
 items:
 - Untrusted input | Missing, null, the wrong type, huge, negative, NaN?
@@ -29,9 +29,9 @@ items:
 - Claims | A comment says "never". Is that true for every caller?
 source: skills/pre-pr-review/SKILL.md, section 3. Others: limits, cost, routing, platform, tests, concurrency, UI, dead code, other doors to the same resource.
 
-### 16
+### 27
 type: code
-tag: Act II · The loop
+tag: Act III · The loop
 headline: A small change, three problems
 lang: js
 code: |
@@ -49,9 +49,9 @@ code: |
 caption: Twelve lines. Read it through the lenses and ask, for each line, what input breaks it.
 source: A small example change made for this talk.
 
-### 17
+### 28
 type: code
-tag: Act II · The loop
+tag: Act III · The loop
 headline: Verify: *write the failure,* then run it
 code: |
   $ node probe.js
@@ -62,15 +62,15 @@ code: |
 caption: Every finding names the input that breaks it. What cannot be made concrete is dropped, or listed as "could not confirm".
 source: Output of the probe on the example change, Node 22.
 
-### 18
+### 29
 type: statement
-tag: Act II · The loop
+tag: Act III · The loop
 headline: Outside reviewers are cheap and sometimes wrong. *Yours should not be.*
 sub: A finding without a concrete failure does not go in the report.
 
-### 19
+### 30
 type: bignumber
-tag: Act II · The loop
+tag: Act III · The loop
 number: 37
 unit: %
 line: of the real problems found by *one cheap reader.*
@@ -78,15 +78,15 @@ side: **Our first baseline, code only, the cheapest model for every reader.** A 
 source: review-loop's own first baseline, in skills/pre-pr-review/references/multipass.md.
 check: small sample. Say the number of cases, or leave it as "our first measurement".
 
-### 20
+### 31
 type: diagram
-tag: Act II · The loop
+tag: Act III · The loop
 headline: Three readers, each with *one job,* then a vote
 name: d20-multipass
 
-### 21
+### 32
 type: compare
-tag: Act II · The loop
+tag: Act III · The loop
 headline: Pay for three readers only when it matters
 left_title: One reader
 left:
@@ -102,9 +102,9 @@ right:
 right_color: cyan
 source: review-loop depth, skills/pre-pr-review/scripts/review-depth.sh. Default limit: 60 changed code lines.
 
-### 22
+### 33
 type: code
-tag: Act II · The loop
+tag: Act III · The loop
 headline: It asks *before* you spend
 code: |
   $ review-loop depth HEAD~1 HEAD
@@ -121,14 +121,14 @@ code: |
 caption: The last commit, the last seven and the last twenty of a real game.
 source: Run on Neon Smash (github.com/kenchris/soma-breakout), October 2026.
 
-### 23
+### 34
 type: statement
-tag: Act II · The loop
+tag: Act III · The loop
 headline: Three cycles at most. Then ask whether *the approach is wrong.*
 sub: After the first pass, read only the new diff. Fix the class of a bug, not the line.
 
-### 24
+### 35
 type: statement
-tag: Act II · The loop
+tag: Act III · The loop
 headline: What failure means *here* goes in one short file.
 sub: REVIEW.md: what counts as a failure, which paths guard something, what to ignore, which classes were raised before. The reviewer reads it first.

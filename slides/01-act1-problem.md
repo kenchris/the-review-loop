@@ -57,8 +57,7 @@ type: statement
 tag: Act I · The problem
 headline: Teams that review agent-written code at scale review in *layers.*
 sub: Verify before the pull request. An AI review on every pull request, its findings checked by other agents. A file that says what matters. Past incidents as the test set.
-source: Osmani, Lunt and Wang, "Solving code review at Anthropic", October 2026.
-check: confirm each layer against the post.
+source: Osmani, Lunt and Wang, "How the Claude Code team does code review", claude.dev, 15 October 2026.
 
 ### 11
 type: statement

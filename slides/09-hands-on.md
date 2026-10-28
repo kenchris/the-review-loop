@@ -1,12 +1,12 @@
 # Hands-on
 
-### 60
+### 80
 type: section
-num: VII
+num: IX
 headline: Hands-on
 sub: On your own branch. About 20 minutes.
 
-### 61
+### 81
 type: fourup
 tag: Hands-on
 headline: Six steps
@@ -18,7 +18,7 @@ items:
 - 05 | Rule | Save a report, run the gate.
 - 06 | Learn | Optional: threads sync, then /retro.
 
-### 62
+### 82
 type: code
 tag: Hands-on · Steps 1 to 3
 headline: Install, ask, compare
@@ -32,7 +32,7 @@ code: |
   review-loop sweeps main HEAD
 caption: Did the review find something the sweeps did not? Did the sweeps ask something the review answered?
 
-### 63
+### 83
 type: code
 tag: Hands-on · Steps 4 and 5
 headline: Setup, then the rule
@@ -44,7 +44,7 @@ code: |
   review-loop gate main HEAD
 caption: Edit REVIEW.md first: three lines on what failure means in your project.
 
-### 64
+### 84
 type: statement
 tag: Hands-on · Step 6
 headline: For those with *open pull requests* and review comments.

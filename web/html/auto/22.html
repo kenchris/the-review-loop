@@ -1,11 +1,1 @@
-<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css?v=20261028102002"><link rel="stylesheet" href="../templates.css?v=20261028102002"><link rel="stylesheet" href="../diagram.css?v=20261028102002"><script src="../base.js?v=20261028102002"></script></head><body><div class="slide"><div class="grid"></div><div class="tagpos"><span class="tag">Act II · The loop</span></div><h2 class="head" data-edit="headline" style="font-size:66px">It asks <em>before</em> you spend</h2><div class="codebox"><pre style="font-size:32px">$ review-loop depth HEAD~1 HEAD
-depth: single
-why: small: 10 code lines (limit 60)
-
-$ review-loop depth HEAD~7 HEAD
-depth: multipass
-why: 393 code lines (a small change is up to 60)
-
-$ review-loop depth HEAD~20 HEAD
-depth: multipass
-why: 1731 code lines (a small change is up to 60)</pre></div><div class="codecap" data-edit="caption">The last commit, the last seven and the last twenty of a real game.</div><div class="src" data-edit="source">Run on Neon Smash (github.com/kenchris/soma-breakout), October 2026.</div></div></body></html>
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css?v=20261028104221"><link rel="stylesheet" href="../templates.css?v=20261028104221"><link rel="stylesheet" href="../diagram.css?v=20261028104221"><script src="../base.js?v=20261028104221"></script></head><body><div class="slide"><div class="grid"></div><div class="tagpos"><span class="tag">Act II · Why it matters</span></div><div class="bn-num" style="font-size:430px">59<small style="font-size:200px">%</small></div><div class="bn-line" data-edit="line">of what the reviewer kept flagging was <em>old code,</em> there since the first pass.</div><div class="bn-side" data-edit="side"><b>review-loop marks it Pre-existing</b> and keeps it out of the author's count, so a round does not grow on code the change never touched.</div><div class="src" data-edit="source">Osmani, Lunt and Wang, "How the Claude Code team does code review", 15 October 2026. By git blame, on the pull requests the team studied.</div></div></body></html>

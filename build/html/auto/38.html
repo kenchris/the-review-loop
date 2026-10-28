@@ -1,9 +1,7 @@
-<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><link rel="stylesheet" href="../templates.css"><link rel="stylesheet" href="../diagram.css"><script src="../base.js"></script></head><body><div class="slide"><div class="grid"></div><div class="tagpos"><span class="tag">Act IV · Level 2</span></div><h2 class="head" data-edit="headline" style="font-size:66px">Tell it about your repository</h2><div class="codebox"><pre style="font-size:36px">$ review-loop init
-created  ./REVIEW.md
-created  ./REVIEW.sweeps
-created  ./REVIEW.gate
-ready    ./reviews/
-created  ./.review-loop.env
-
-$ review-loop doctor
-8 ok, 0 missing</pre></div><div class="codecap" data-edit="caption">It never overwrites. Edit REVIEW.md a little: the reviewer reads it first.</div><div class="src" data-edit="source">Run on Neon Smash (github.com/kenchris/soma-breakout).</div></div></body></html>
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><link rel="stylesheet" href="../templates.css"><link rel="stylesheet" href="../diagram.css"><script src="../base.js"></script></head><body><div class="slide"><div class="grid"></div><div class="tagpos"><span class="tag">Act IV · Checks that run</span></div><h2 class="head" data-edit="headline" style="font-size:66px">Sweeps: <em>the added lines,</em> run through search rules</h2><div class="codebox"><pre style="font-size:36px">$ review-loop sweeps HEAD~20 HEAD
+[json-parse] throws on bad input: is the parsed
+  shape checked before use?
+  js/assist.js:38:  JSON.parse(localStorage.getItem(...))
+[new-listener] is there a matching removal?
+  js/secretCode.js:191:  document.addEventListener(...)
+diff-sweeps: 15 question(s) for the author (warn-only)</pre></div><div class="codecap" data-edit="caption">No model, no cost. Each hit is a question.</div><div class="src" data-edit="source">Run on Neon Smash (github.com/kenchris/soma-breakout), last 20 commits, output shortened.</div></div></body></html>

@@ -1,14 +1,14 @@
 # Act VI. Limits and close
 
-### 55
+### 75
 type: section
-num: VI
+num: VIII
 headline: Limits
 sub: What it does not do.
 
-### 56
+### 76
 type: compare
-tag: Act VI · Limits
+tag: Act VIII · Limits
 headline: A small, generic version of some of these pieces
 left_title: It does
 left:
@@ -26,15 +26,15 @@ right:
 right_color: amber
 source: README, Background, and PLAN.md.
 
-### 57
+### 77
 type: statement
-tag: Act VI · Limits
+tag: Act VIII · Limits
 headline: Three readers cost about *three times* one. Say so before launching.
 sub: The tool asks first for a large diff, suggests a model per reader, and the eval records the tokens each run used.
 
-### 58
+### 78
 type: code
-tag: Act VI · Close
+tag: Act VIII · Close
 headline: On Monday
 code: |
   review-loop depth main HEAD
@@ -43,8 +43,8 @@ code: |
 caption: Free, free, and one reader. Fix what it finds. Stop here if that is enough.
 source: Levels 1 and 2 of the README.
 
-### 59
+### 79
 type: statement
-tag: Act VI · Close
+tag: Act VIII · Close
 headline: Start at level 1. *Stop when it is enough.*
 sub: github.com/kenchris/review-loop
