@@ -48,6 +48,30 @@ sub: /triage reads each undecided thread against the code, proposes a verdict wi
 source: skills/triage/SKILL.md in review-loop.
 
 ### 71
+type: screenshot
+tag: Act VI · Learning
+headline: /triage on *a real round*
+image: triage-real-run.png
+caption: 40 undecided threads on five pull requests, more than the skill reads in one go. So it split them by pull request, started three read-only readers and said it would check their proposals before showing anything.
+callouts:
+- The skill's own limit: over about 25 threads it reads in shares.
+- Three readers, one share each. They edit nothing.
+- Nothing is recorded until I confirm.
+source: Claude Code, on a work project. The three readers had run for 51 seconds when this was taken.
+
+### 72
+type: screenshot
+tag: Act VI · Learning
+headline: Then it *checks the readers*
+image: triage-real-run-2.png
+caption: The first reader came back after 56 seconds. The agent did not pass its answer on. It listed where the reader was thin and what it would check itself first.
+callouts:
+- Three threads rejected on thin grounds. It will read the code before they go in the table.
+- One verdict is mixed: only partly fixed.
+- The reader skipped the headers and the PR text.
+source: The same run, a little later. Claude Code, on a work project.
+
+### 73
 type: code
 tag: Act VI · Learning
 headline: What /triage *puts in front of you*
@@ -60,9 +84,9 @@ code: |
 
   review-loop threads verdict --batch decisions.tsv
 caption: One table, grouped by proposal, each with a line of evidence you can check. All or nothing when it records.
-source: An example built from two sweep hits earlier in this talk, not real threads. The skill is tested at the script level, not yet on a real round.
+source: An example built from two sweep hits earlier in this talk, not real threads. The two runs before this slide were real.
 
-### 72
+### 74
 type: table
 tag: Act VI · Learning
 headline: A verdict is *your decision* about one thread
@@ -74,13 +98,13 @@ items:
 - deferred | Real, but not now.
 source: docs/learning-from-reviews.md. Also: missed, and new for undecided.
 
-### 73
+### 75
 type: diagram
 tag: Act VI · Learning
 headline: The cheapest change that *would have caught it*
 name: d45-ladder
 
-### 74
+### 76
 type: fourup
 tag: Act VI · Learning
 headline: What /retro said about a real round
@@ -92,20 +116,20 @@ items:
 source: The Copilot round from slide 7: nine comments, eight right. The README does not break down the other three.
 check: the README gives five of the eight causes. Do not claim a split of the rest.
 
-### 75
+### 77
 type: statement
 tag: Act VI · Learning
 headline: Measure the reviewer too. *Recall and noise.* Both.
 sub: Recall: of the real problems, how many it reported. Noise: of what it reported, how much was wrong. Raising recall is easy. Noise is what it costs the author.
 source: skills/review-eval/SKILL.md.
 
-### 76
+### 78
 type: statement
 tag: Act VI · Learning
 headline: A rejected comment keeps *your reason.* It is not fixed twice.
 sub: And a change to the lenses is kept only if the eval says it helped.
 
-### 77
+### 79
 type: statement
 tag: Act VI · Learning
 headline: It pays off after a few rounds. *With one or two comments there is nothing to learn from yet.*
